@@ -9,6 +9,7 @@ body{
     
 }
 main{
+   
     padding: 50px 10px;
     background-color: white;
     display: flex;
@@ -54,4 +55,27 @@ button{
 .title{
     font-size: 40px;
     margin: 0;
+}
+@media only screen and (max-width:650px){
+    .die-container{
+        grid-template: auto auto /repeat(3,1fr
+        )
+        
+    }
+    .die-box{
+        width: 30px;
+        height: 30px;
+        font-weight: 300;
+   font-size: 10px;
+    }
+    button{
+        margin-top: 10px;
+        padding: 10px 25px;
+        font-weight: 400;
+    }
+    main{
+        width: 40vh;
+        height: 60vh;
+        margin-top: 15%;
+    }
 }
